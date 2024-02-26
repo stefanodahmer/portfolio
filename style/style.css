@@ -128,14 +128,17 @@ body{
     color: var(--cor-terciaria);
 }
 
-@media(max-width: 1395px){
+@media(max-width: 768px){
     .cabecalho{
-        padding: 5% 20% 5% 20%;
+        padding: 5% 1% 1% 4%;
         flex-wrap: wrap;
+
     }
     .cabecalho__menu{
         justify-content: center;
-
+    }
+    .cabecalho__menu__link{
+        font-size: 1.1rem;
     }
     .apresentacao{
         flex-direction: column-reverse;
@@ -143,6 +146,9 @@ body{
     }
     .apresentacao__conteudo{
         width: auto;
+    }
+    .apresentacao__links__navegacao{
+        padding: 5%;
     }
     
 }
